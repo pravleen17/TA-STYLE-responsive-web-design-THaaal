@@ -5,8 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Blog Template Assignment 1</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Open+Sans&family=Source+Serif+Pro:wght@700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/1462567514.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header class="navbar">
+        <div class="container">
+            <nav class="flex justify-between item-center column">
+                <a class="brand" href="#">
+                    <img src="logo.png" alt="" />
+                </a>
+                <ul class="nav-menu flex item-center">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="active" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="padding hero">
+            <article class="container flex item-center justify-between wrap">
+                <div class="flex-48 flex-100 order-1">
+                    <h1 class="heading">What is lorem ipsum?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolorem et accusamus? Veritatis nobis minus, hic iste velit ratione vero eligendi voluptatum nulla dolor eveniet ullam perspiciatis maxime nostrum ipsam.</p>
+                    <a class="btn" href="#">Read More</a>
+                </div>
+                <div class="flex-48 flex-100">
+                    <img class="width-full" src="01.png" alt="" />
+                </div>
+            </article>
+        </section>
+        <section  class="padding blog">
+            <div class="container">
+                <h2 class="heading text-center">Our Blog</h2>
+                <div class="flex justify-between wrap">
+                    <article class="flex-30 flex-100">
+                        <div class="font-0">
+                            <img class="width-full" src="02.png" alt="" />
+                        </div>
+                        <h3>Why do we use it?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis dicta voluptas dolor vero delectus! Excepturi doloribus reiciendis ullam. Dolorem velit cum, animi repellat</p>
+                        <a class="btn" href="#">Read More</a>
+                    </article>
+                    <article class="flex-30 flex-100">
+                        <div class="font-0">
+                            <img class="width-full" src="03.png" alt="" />
+                        </div>
+                        <h3>Where does it come from?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis dicta voluptas dolor vero delectus! Excepturi doloribus reiciendis ullam. Dolorem velit cum, animi repellat</p>
+                        <a class="btn" href="#">Read More</a>
+                    </article>
+                    <article class="flex-30 flex-100">
+                        <div class="font-0">
+                            <img class="width-full" src="04.png" alt="" />
+                        </div>
+                        <h3>Where can I get some?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis dicta voluptas dolor vero delectus! Excepturi doloribus reiciendis ullam. Dolorem velit cum, animi repellat</p>
+                        <a class="btn" href="#">Read More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container flex justify-between item-center column">
+            <small>&copy; AltCampus</small>
+            <nav>
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
